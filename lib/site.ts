@@ -10,6 +10,8 @@ export const site = {
   address: '924 W. Highway 2, Newport, WA 99156',
   mapQuery: 'Golden Spur Motor Inn 924 W Highway 2 Newport WA 99156',
   facebookUrl: 'https://www.facebook.com/GoldenSpurMotorInn',
+  /** Site credit in footer — update if your public URL differs. */
+  exovaraLabsUrl: 'https://exovaralabs.com',
   logoUrl: '/logo.png',
   /** Wording aligned with goldenspurmotorinn.com index and services. */
   amenities: [

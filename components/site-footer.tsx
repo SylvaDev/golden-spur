@@ -33,6 +33,18 @@ export function SiteFooter() {
           </a>
         </div>
       </div>
+      <div className="section-shell mt-5 border-t border-black/[0.06] pt-4">
+        <p className="text-center text-[11px] text-slate-500 sm:text-xs md:text-left">
+          <a
+            href={site.exovaraLabsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-600 underline decoration-black/15 underline-offset-2 transition hover:text-brandRed hover:decoration-brandGold/40"
+          >
+            Powered by Exovara Labs
+          </a>
+        </p>
+      </div>
     </footer>
   );
 }
