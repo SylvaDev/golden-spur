@@ -3,6 +3,11 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.goldenspurmotorinn.com'),
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: { index: false, follow: false },
+  },
   title: 'Golden Spur Motor Inn | Newport, WA Motel',
   description:
     'Stay at Golden Spur Motor Inn in Newport, Washington. Enjoy free Wi‑Fi, in-room coffee, cable TV, refrigerator and microwave, and convenient Highway 2 access.',

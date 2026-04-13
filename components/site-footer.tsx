@@ -33,7 +33,11 @@ export function SiteFooter() {
           </a>
         </div>
       </div>
-      <div className="section-shell mt-5 border-t border-black/[0.06] pt-4">
+      <div className="section-shell mt-5 flex flex-col gap-3 border-t border-black/[0.06] pt-4">
+        <p className="max-w-3xl text-center text-[11px] leading-relaxed text-slate-500 sm:text-xs md:text-left">
+          This is an independent concept redesign created for demonstration purposes only. All branding and content belong to their respective owners. Not
+          affiliated with or endorsed by Golden Spur Motor Inn.
+        </p>
         <p className="text-center text-[11px] text-slate-500 sm:text-xs md:text-left">
           <a
             href={site.exovaraLabsUrl}
